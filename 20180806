@@ -1,0 +1,314 @@
+Main.scala
+
+object Main extends App {
+  println("Hello, World!")
+  println("Hello, Tokyo!")
+  val str:String =   "AAA"
+  println(str)
+  var str2tunple = List("AAA","BBB","CCC")
+  println(str2tunple(1))
+  var sss = (11,22,33)
+  println(sss._1)
+  println(sss._2)
+}
+
+downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.1.6/test
+ing_2.12-1.1.6.jar ...
+        [SUCCESSFUL ] org.scala-sbt#testing_2.12;1.1.6!testing_2.12.jar (767ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.1.
+3/util-tracking_2.12-1.1.3.jar ...
+        [SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.1.3!util-tracking_2.12.
+jar (673ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.1
+.7/zinc-classpath_2.12-1.1.7.jar ...
+        [SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.1.7!zinc-classpath_2.1
+2.jar (705ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.1.7
+/zinc-apiinfo_2.12-1.1.7.jar ...
+        [SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.1.7!zinc-apiinfo_2.12.ja
+r (733ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-ivy-integration_2.
+12/1.1.7/zinc-ivy-integration_2.12-1.1.7.jar ...
+        [SUCCESSFUL ] org.scala-sbt#zinc-ivy-integration_2.12;1.1.7!zinc-ivy-int
+egration_2.12.jar (705ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.1.7/zinc_2.
+12-1.1.7.jar ...
+        [SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.1.7!zinc_2.12.jar (691ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.1.3
+/util-control_2.12-1.1.3.jar ...
+        [SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.1.3!util-control_2.12.ja
+r (686ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.1.3/ut
+il-interface-1.1.3.jar ...
+        [SUCCESSFUL ] org.scala-sbt#util-interface;1.1.3!util-interface.jar (676
+ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.1.3/u
+til-cache_2.12-1.1.3.jar ...
+        [SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.1.3!util-cache_2.12.jar (7
+67ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.1.6/test-a
+gent-1.1.6.jar ...
+        [SUCCESSFUL ] org.scala-sbt#test-agent;1.1.6!test-agent.jar (720ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.1
+.7/zinc-classfile_2.12-1.1.7.jar ...
+        [SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.1.7!zinc-classfile_2.1
+2.jar (687ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/
+1.1.7/zinc-compile-core_2.12-1.1.7.jar ...
+        [SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.1.7!zinc-compile-co
+re_2.12.jar (783ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.1.7/zi
+nc-core_2.12-1.1.7.jar ...
+        [SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.1.7!zinc-core_2.12.jar (891
+ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.1.7
+/zinc-persist_2.12-1.1.7.jar ...
+        [SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.1.7!zinc-persist_2.12.ja
+r (1789ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.1.6/
+core-macros_2.12-1.1.6.jar ...
+        [SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.1.6!core-macros_2.12.jar
+(848ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.1.6/pro
+tocol_2.12-1.1.6.jar ...
+        [SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.1.6!protocol_2.12.jar (1019m
+s)
+:: retrieving :: org.scala-sbt#boot-app
+        confs: [default]
+        76 artifacts copied, 0 already retrieved (27669kB/296ms)
+[info] Loading project definition from C:\work\hello-world\project
+[info] Updating ProjectRef(uri("file:/C:/work/hello-world/project/"), "hello-wor
+ld-build")...
+[info] Done updating.
+[info] Loading settings from build.sbt ...
+[info] Set current project to hello-world (in build file:/C:/work/hello-world/)
+[info] sbt server started at local:sbt-server-11f9907dd7e1556bfc48
+sbt:hello-world>
+sbt:hello-world> run
+[info] Updating ...
+[info] downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0
+.6.2/machinist_2.12-0.6.2.jar ...
+[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12
+/1.1.0/cats-macros_2.12-1.1.0.jar ...
+[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1
+.1.0/cats-core_2.12-1.1.0.jar ...
+[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12
+/1.1.0/cats-kernel_2.12-1.1.0.jar ...
+[info]  [SUCCESSFUL ] org.typelevel#machinist_2.12;0.6.2!machinist_2.12.jar (860
+ms)
+[info]  [SUCCESSFUL ] org.typelevel#cats-macros_2.12;1.1.0!cats-macros_2.12.jar
+(1188ms)
+[info]  [SUCCESSFUL ] org.typelevel#cats-kernel_2.12;1.1.0!cats-kernel_2.12.jar
+(3538ms)
+[info]  [SUCCESSFUL ] org.typelevel#cats-core_2.12;1.1.0!cats-core_2.12.jar (502
+3ms)
+[info] Done updating.
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.6. Compiling...
+
+[info]   Compilation completed in 6.24s.
+[info] Done compiling.
+[info] Packaging C:\work\hello-world\target\scala-2.12\hello-world_2.12-1.0.jar
+...
+[info] Done packaging.
+[info] Running Main
+Hello, World!
+[success] Total time: 20 s, completed 2018-8-6 22:53:11
+sbt:hello-world> run
+[info] Packaging C:\work\hello-world\target\scala-2.12\hello-world_2.12-1.0.jar
+...
+[info] Done packaging.
+[info] Running Main
+Hello, World!
+[success] Total time: 1 s, completed 2018-8-6 22:53:22
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[error] C:\work\hello-world\src\main\scala\Main.scala:4:22: type mismatch;
+[error]  found   : Char('\'')
+[error]  required: String
+[error]   val str:String =   '''
+[error]                      ^
+[error] C:\work\hello-world\src\main\scala\Main.scala:5:1: not found: value dsad
+asdasd
+[error] dsadasdasd
+[error] ^
+[error] C:\work\hello-world\src\main\scala\Main.scala:6:1: not found: value dsad
+asdasd
+[error] dsadasdasd
+[error] ^
+[error] C:\work\hello-world\src\main\scala\Main.scala:7:1: not found: value dasd
+asdasd
+[error] dasdasdasd
+[error] ^
+[warn] C:\work\hello-world\src\main\scala\Main.scala:8:1: a pure expression does
+ nothing in statement position; multiline expressions may require enclosing pare
+ntheses
+[warn] '''
+[warn] ^
+[warn] one warning found
+[error] four errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 2018-8-6 23:03:24
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[error] C:\work\hello-world\src\main\scala\Main.scala:5:4: value dsadasdasd is n
+ot a member of Char
+[error] '''dsadasdasd
+[error]    ^
+[error] C:\work\hello-world\src\main\scala\Main.scala:6:1: not found: value dsad
+asdasd
+[error] dsadasdasd
+[error] ^
+[error] C:\work\hello-world\src\main\scala\Main.scala:7:1: not found: value dasd
+asdasd
+[error] dasdasdasd
+[error] ^
+[warn] C:\work\hello-world\src\main\scala\Main.scala:8:1: a pure expression does
+ nothing in statement position; multiline expressions may require enclosing pare
+ntheses
+[warn] '''
+[warn] ^
+[warn] one warning found
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 2018-8-6 23:04:29
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[info] Done compiling.
+[info] Packaging C:\work\hello-world\target\scala-2.12\hello-world_2.12-1.0.jar
+...
+[info] Done packaging.
+[info] Running Main
+Hello, World!
+Hello, Tokyo!
+AAA
+[success] Total time: 1 s, completed 2018-8-6 23:04:47
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[error] C:\work\hello-world\src\main\scala\Main.scala:6:25: identifier expected
+but ']' found.
+[error]   var str2tunple:String[] = ("AAA","BBB","CCC")
+[error]                         ^
+[error] C:\work\hello-world\src\main\scala\Main.scala:7:1: ']' expected but '}'
+found.
+[error] }
+[error] ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 2018-8-6 23:07:17
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[info] Done compiling.
+[info] Packaging C:\work\hello-world\target\scala-2.12\hello-world_2.12-1.0.jar
+...
+[info] Done packaging.
+[info] Running Main
+Hello, World!
+Hello, Tokyo!
+AAA
+[success] Total time: 1 s, completed 2018-8-6 23:08:28
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[info] Done compiling.
+[info] Packaging C:\work\hello-world\target\scala-2.12\hello-world_2.12-1.0.jar
+...
+[info] Done packaging.
+[info] Running Main
+Hello, World!
+Hello, Tokyo!
+AAA
+(AAA,BBB,CCC)
+[success] Total time: 1 s, completed 2018-8-6 23:09:11
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[error] C:\work\hello-world\src\main\scala\Main.scala:7:22: identifier expected
+but integer literal found.
+[error]   println(str2tunple[0])
+[error]                      ^
+[error] C:\work\hello-world\src\main\scala\Main.scala:8:1: ']' expected but '}'
+found.
+[error] }
+[error] ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 0 s, completed 2018-8-6 23:09:25
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[error] C:\work\hello-world\src\main\scala\Main.scala:7:21: (String, String, Str
+ing) does not take parameters
+[error]   println(str2tunple(0))
+[error]                     ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 2018-8-6 23:09:45
+sbt:hello-world> run
+[info] Running Main
+Hello, World!
+Hello, Tokyo!
+AAA
+(AAA,BBB,CCC)
+[success] Total time: 0 s, completed 2018-8-6 23:09:52
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[info] Done compiling.
+[info] Packaging C:\work\hello-world\target\scala-2.12\hello-world_2.12-1.0.jar
+...
+[info] Done packaging.
+[info] Running Main
+Hello, World!
+Hello, Tokyo!
+AAA
+CCC
+[success] Total time: 1 s, completed 2018-8-6 23:13:44
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[info] Done compiling.
+[info] Packaging C:\work\hello-world\target\scala-2.12\hello-world_2.12-1.0.jar
+...
+[info] Done packaging.
+[info] Running Main
+Hello, World!
+Hello, Tokyo!
+AAA
+AAA
+[success] Total time: 1 s, completed 2018-8-6 23:14:03
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[info] Done compiling.
+[info] Packaging C:\work\hello-world\target\scala-2.12\hello-world_2.12-1.0.jar
+...
+[info] Done packaging.
+[info] Running Main
+Hello, World!
+Hello, Tokyo!
+AAA
+BBB
+[success] Total time: 1 s, completed 2018-8-6 23:14:17
+sbt:hello-world> run
+[info] Compiling 1 Scala source to C:\work\hello-world\target\scala-2.12\classes
+ ...
+[info] Done compiling.
+[info] Packaging C:\work\hello-world\target\scala-2.12\hello-world_2.12-1.0.jar
+...
+[info] Done packaging.
+[info] Running Main
+Hello, World!
+Hello, Tokyo!
+AAA
+BBB
+11
+22
+[success] Total time: 1 s, completed 2018-8-6 23:20:37
+sbt:hello-world>
