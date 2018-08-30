@@ -13,3 +13,5 @@ content-type application/json
   "body": 456
 }
 
+这里面用到的是completionStage， completionFuture这些线程之间的通讯技术。
+best practice。
