@@ -1,0 +1,15 @@
+Post and Get method usage on play framework
+
+GET http://localhost:9000/v1/posts
+
+[{"id":"1","link":"http://localhost:9000/v1/posts/1","title":null,"body":null},{"id":"2","link":"http://localhost:9000/v1/posts/2","title":"123","body":"456"}]
+
+POST http://localhost:9000/v1/posts
+
+content-type application/json
+
+{
+  "title": 123,
+  "body": 456
+}
+
