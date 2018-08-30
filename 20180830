@@ -1,4 +1,4 @@
-Post and Get method usage on play framework
+Post and Get method usage on play framework v2.6x
 
 GET http://localhost:9000/v1/posts
 
